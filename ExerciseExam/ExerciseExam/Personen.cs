@@ -36,6 +36,26 @@ namespace ExerciseExam
         public Friend[] friends { get; set; }
         public string greeting { get; set; }
         public string favoriteFruit { get; set; }
+
+        public string genderPicture
+        {
+            get
+            {
+                if (this.gender == "male")
+                {
+                    return "http://www.psdgraphics.com/file/male-gender-sign.jpg";
+                }
+                else if (this.gender == "female")
+                {
+                    return "http://www.psdgraphics.com/file/female-gender-sign.jpg";
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+
         public event NotifyCollectionChangedEventHandler CollectionChanged;
     }
 
@@ -44,5 +64,7 @@ namespace ExerciseExam
         public int id { get; set; }
         public string name { get; set; }
     }
+
+    
 
 }

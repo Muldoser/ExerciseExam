@@ -13,3 +13,4 @@ C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam
 C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.csproj.GenerateResource.Cache
 C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.exe
 C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.pdb
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.csprojResolveAssemblyReference.cache
