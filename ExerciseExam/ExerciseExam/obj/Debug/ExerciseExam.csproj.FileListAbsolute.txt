@@ -1,0 +1,16 @@
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\bin\Debug\ExerciseExam.exe.config
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\bin\Debug\ExerciseExam.exe
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\bin\Debug\ExerciseExam.pdb
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\bin\Debug\Newtonsoft.Json.dll
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\bin\Debug\Newtonsoft.Json.xml
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.csprojResolveAssemblyReference.cache
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\MainWindow.g.cs
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\App.g.cs
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam_MarkupCompile.cache
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam_MarkupCompile.lref
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\MainWindow.baml
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.g.resources
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.Properties.Resources.resources
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.csproj.GenerateResource.Cache
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.exe
+C:\Users\michi\Desktop\Exercise\ExerciseExam\ExerciseExam\obj\Debug\ExerciseExam.pdb
