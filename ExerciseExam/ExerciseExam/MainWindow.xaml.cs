@@ -33,9 +33,13 @@ namespace ExerciseExam
 
         private void MainWindow_OnLoaded(object sender, RoutedEventArgs e)
         {
-            string url = "https://dl.dropboxusercontent.com/u/58011895/so4data.json";
+            this.DataContext = this;
+            /*string url = "https://dl.dropboxusercontent.com/u/58011895/so4data.json";
             WebClient wc = new WebClient();
             string jsondata = wc.DownloadString(url);
+            */
+            StreamReader r = new StreamReader("so4data.json");
+            string jsondata = r.ReadToEnd();
             Rootobject data = JsonConvert.DeserializeObject<Rootobject>(jsondata);
 
             allProfiles = new ObservableCollection<Personen>();
@@ -43,8 +47,6 @@ namespace ExerciseExam
             {
                 allProfiles.Add(p);
             }
-            ProfileListing.DataContext = allProfiles;
-
         }
     }
 }

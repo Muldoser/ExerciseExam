@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace ExerciseExam
         public Personen[] Personen { get; set; }
     }
 
-    public class Personen
+    public class Personen : INotifyCollectionChanged
     {
         public string _id { get; set; }
         public int index { get; set; }
@@ -35,6 +36,7 @@ namespace ExerciseExam
         public Friend[] friends { get; set; }
         public string greeting { get; set; }
         public string favoriteFruit { get; set; }
+        public event NotifyCollectionChangedEventHandler CollectionChanged;
     }
 
     public class Friend
