@@ -31,7 +31,10 @@
                                 <StackPanel Orientation="Vertical">
                                     <TextBlock Text="{Binding Path=name}" Margin="10 0"></TextBlock>
                                     <TextBlock Text="{Binding Path=company}" Margin="10 0"></TextBlock>
-                                    <TextBlock Text="{Binding Path=age}" Margin="10 0">Leeftijd:</TextBlock>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="10 0">Leeftijd:</TextBlock>
+                                        <TextBlock Text="{Binding Path=age}"></TextBlock>
+                                    </StackPanel>
                                 </StackPanel>
                             </Grid>
                             <Grid Column="2">
@@ -43,7 +46,25 @@
             </ListBox>
         </Grid>
         <Grid Column="1">
-            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Row="0">
+                <ListBox VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" Height="150" x:Name="profileInfo">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock ></TextBlock>
+                        <!--Text="{Binding Path=email}"-->
+                        <TextBlock ></TextBlock>
+                        <!--Text="{Binding Path=address}"-->
+                    </StackPanel>
+                </ListBox>
+            </Grid>
+            <Grid Row="1">
+                <StackPanel Orientation="Horizontal">
+                    
+                </StackPanel>
+            </Grid>
         </Grid>
     </Grid>
 </Window>

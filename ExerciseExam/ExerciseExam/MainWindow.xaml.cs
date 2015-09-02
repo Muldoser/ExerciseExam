@@ -25,6 +25,7 @@ namespace ExerciseExam
     public partial class MainWindow : Window
     {
         public ObservableCollection<Personen> allProfiles { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -47,6 +48,15 @@ namespace ExerciseExam
             {
                 allProfiles.Add(p);
             }
+
+            Personen temp = new Personen();
+            
+            if (profileInfo.SelectedIndex >= 0)
+            {
+                profileInfo.DataContext = allProfiles[profileInfo.SelectedIndex];
+            }
+
+
         }
     }
 }
